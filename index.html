@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apple</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <nav class="nav__inner">
+      <a class="nav__logo" href="#" aria-label="Apple">
+        <svg viewBox="0 0 24 44" width="18" height="44" fill="currentColor"><path d="M12 17.500c1.600-1.100 3.600-1 4.800.2-2.100 1.300-2.200 4.300.3 5.500-.6 1.800-2 4-3.600 4-1.200 0-1.500-.7-2.800-.7s-1.700.7-2.800.7c-1.700 0-3.800-3.300-3.800-6.300 0-2.800 1.800-4.400 3.700-4.400 1.200 0 2 .7 2.800.7.300 0 .5-.1 1.400-.7z"/><path d="M13.200 15.600c.1-1.200.9-2.300 2-2.700.1 1.300-.7 2.600-2 2.700z"/></svg>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Watch</a></li>
+        <li><a href="#">AirPods</a></li>
+        <li><a href="#">TV &amp; Home</a></li>
+        <li><a href="#">Entertainment</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+      <div class="nav__icons">
+        <a href="#" aria-label="Search"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="6.500"/><path d="M15 15l6 6"/></svg></a>
+        <a href="#" aria-label="Bag"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 8h16l-1 12H5L4 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg></a>
+        <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO 1 (light) ===== -->
+    <section class="hero hero--light reveal">
+      <h2 class="hero__title">MacBook Pro</h2>
+      <p class="hero__sub">Mind-blowing. Head-turning.</p>
+      <div class="hero__cta">
+        <a class="btn btn--blue" href="#">Learn more</a>
+        <a class="btn btn--outline" href="#">Buy</a>
+      </div>
+      <div class="media media--wide"><img src="images/macbook.jpg" alt="MacBook Pro" onerror="this.style.display='none'"></div>
+    </section>
+
+    <!-- ===== HERO 2 (dark) ===== -->
+    <section class="hero hero--dark reveal">
+      <h2 class="hero__title">iPhone</h2>
+      <p class="hero__sub">Designed to be loved.</p>
+      <div class="hero__cta">
+        <a class="btn btn--blue" href="#">Learn more</a>
+        <a class="btn btn--outline-light" href="#">Buy</a>
+      </div>
+      <div class="media media--wide media--dark"><img src="images/iphone.jpg" alt="iPhone" onerror="this.style.display='none'"></div>
+    </section>
+
+    <!-- ===== PRODUCT GRID ===== -->
+    <section class="grid">
+      <article class="tile tile--light reveal">
+        <h3>iPad</h3><p>Lovable. Drawable. Magical.</p>
+        <div class="hero__cta"><a class="btn btn--blue" href="#">Learn more</a><a class="btn btn--outline" href="#">Buy</a></div>
+        <div class="media"><img src="images/ipad.jpg" alt="iPad" onerror="this.style.display='none'"></div>
+      </article>
+      <article class="tile tile--dark reveal">
+        <h3>Apple Watch</h3><p>The ultimate way to watch your health.</p>
+        <div class="hero__cta"><a class="btn btn--blue" href="#">Learn more</a><a class="btn btn--outline-light" href="#">Buy</a></div>
+        <div class="media media--dark"><img src="images/watch.jpg" alt="Apple Watch" onerror="this.style.display='none'"></div>
+      </article>
+      <article class="tile tile--grey reveal">
+        <h3>AirPods</h3><p>Magic you can hear.</p>
+        <div class="hero__cta"><a class="btn btn--blue" href="#">Learn more</a><a class="btn btn--outline" href="#">Buy</a></div>
+        <div class="media"><img src="images/airpods.jpg" alt="AirPods" onerror="this.style.display='none'"></div>
+      </article>
+      <article class="tile tile--light reveal">
+        <h3>Apple TV 4K</h3><p>The Apple experience. Cinematic.</p>
+        <div class="hero__cta"><a class="btn btn--blue" href="#">Learn more</a><a class="btn btn--outline" href="#">Buy</a></div>
+        <div class="media"><img src="images/tv.jpg" alt="Apple TV" onerror="this.style.display='none'"></div>
+      </article>
+      <article class="tile tile--wide tile--dark reveal">
+        <h3>Apple Card</h3><p>Get up to 3% Daily Cash back with every purchase.</p>
+        <div class="hero__cta"><a class="btn btn--blue" href="#">Learn more</a></div>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__note">More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+      <div class="footer__cols">
+        <div><h4>Shop and Learn</h4><a href="#">Store</a><a href="#">Mac</a><a href="#">iPad</a><a href="#">iPhone</a><a href="#">Watch</a><a href="#">AirPods</a></div>
+        <div><h4>Services</h4><a href="#">Apple Music</a><a href="#">Apple TV+</a><a href="#">iCloud</a><a href="#">Apple Card</a><a href="#">Apple Pay</a></div>
+        <div><h4>Account</h4><a href="#">Manage Your Apple ID</a><a href="#">Apple Store Account</a><a href="#">iCloud.com</a></div>
+        <div><h4>Apple Store</h4><a href="#">Find a Store</a><a href="#">Genius Bar</a><a href="#">Today at Apple</a><a href="#">Order Status</a></div>
+        <div><h4>About Apple</h4><a href="#">Newsroom</a><a href="#">Careers</a><a href="#">Investors</a><a href="#">Contacts</a></div>
+      </div>
+      <div class="footer__bottom">
+        <span>Copyright &copy; 2026 Apple Inc. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Legal</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
